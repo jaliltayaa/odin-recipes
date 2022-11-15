@@ -5,6 +5,13 @@ body {
     color: black;
 }
 
+.recipe-link {
+    color: teal;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "Frank Ruhl Libre",Georgia,serif;
+}
+
 .main-title {
     color: black;
     font-size: 38px;
