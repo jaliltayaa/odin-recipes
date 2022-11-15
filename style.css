@@ -1,0 +1,63 @@
+body {
+    text-align: left;
+    font-family: Roboto,Helvetica,sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.main-title {
+    color: black;
+    font-size: 38px;
+    font-weight: 500;
+    font-family: "Frank Ruhl Libre",Georgia,serif;
+}
+
+.article-title {
+    color: black;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Frank Ruhl Libre",Georgia,serif;
+}
+
+.block-title {
+    color: black;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Frank Ruhl Libre",Georgia,serif;
+}
+
+.introduction {
+    color: #666;
+    font-size: 18px;
+    font-family: Roboto, Helvetica,sans-serif;
+}
+
+.recipe-information {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ebf8f8), to(#fefefe));
+}
+
+.ingredients .block-title {
+    border-bottom: teal 1px solid;
+}
+
+.nutrition-fact {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ebf8f8), to(#fefefe));
+    border:teal 1px solid;
+}
+
+.nutrition-fact .block-title {
+    color:teal;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Roboto,Helvetica,sans-serif;
+    font-size: 18px;
+}
+
+.method .block-title {
+    border-bottom: teal 1px solid;
+}
+
+ol li::marker, ul li::marker{
+    color:teal;
+}
